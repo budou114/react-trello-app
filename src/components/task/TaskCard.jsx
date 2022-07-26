@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-import { TaskCardDeleteButton } from './button/TaskCardDeleteButton'
-import { TaskAddInput } from './input/TaskAddInput'
-import { TaskCardTitle } from './TaskCardTitle'
-import { Tasks } from './Tasks'
+import React, { useState } from 'react';
+import { TaskCardDeleteButton } from './button/TaskCardDeleteButton';
+import { TaskAddInput } from './input/TaskAddInput';
+import { TaskCardTitle } from './TaskCardTitle';
+import { Tasks } from './Tasks';
 
 export const TaskCard = () => {
   const [inputText, setInputText] = useState("");
@@ -19,9 +19,8 @@ export const TaskCard = () => {
         setTaskList={setTaskList}
       />
       <Tasks
-        inputText={inputText}
         taskList={taskList}
       />
     </div>
-  )
-}
+  );
+};
