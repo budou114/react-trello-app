@@ -9,4 +9,8 @@
 ## インストール履歴
 - VSCodeに入れたもの  
   - ES7+ React/Redux/React-Native snippets  
-  - Prettier - Code formatter  
+  - Prettier - Code formatter
+  
+## 外部サイト
+- O-DAN(フリー画像で使用)
+  https://o-dan.net/ja/
