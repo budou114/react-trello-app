@@ -12,5 +12,7 @@
   - Prettier - Code formatter
   
 ## 外部サイト
-- O-DAN(フリー画像で使用)
+- O-DAN(フリー画像で使用)  
   https://o-dan.net/ja/
+- Font Awesome(アイコンで使用)  
+  https://fontawesome.com/
