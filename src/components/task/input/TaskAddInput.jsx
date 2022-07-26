@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export const TaskAddInput = ({
   inputText,
@@ -8,13 +8,19 @@ export const TaskAddInput = ({
 }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
+    if(inputText === "") {
+      return;
+    }
+
     // カードを追加する
     setTaskList([
       ...taskList,
       {
+        id: taskList.length,
         text: inputText,
       }
     ]);
+    
     setInputText("");
   };
 
