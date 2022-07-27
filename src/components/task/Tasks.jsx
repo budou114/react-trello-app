@@ -20,9 +20,10 @@ export const Tasks = ({taskList, setTaskList }) => {
         <Droppable droppableId="droppable">
           {(provided) => (
             <div {...provided.droppableProps} ref={provided.innerRef}>
-              {taskList.map(task => (
+              {taskList.map((task, index) => (
                 <div key={task.id}>
                   <Task
+                    index={index}
                     task={task}
                     taskList={taskList}
                     setTaskList={setTaskList}
