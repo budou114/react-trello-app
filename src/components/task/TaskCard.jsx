@@ -10,11 +10,13 @@ export const TaskCard = () => {
 
   return (
     <div className='taskCard'>
-      <TaskCardTitle />
-      <TaskCardDeleteButton />
+      <div className='taskCardTitleAndTasCardDeleteButtonArea'>
+        <TaskCardTitle />
+        <TaskCardDeleteButton />
+      </div>
       <TaskAddInput
         inputText={inputText}
-        setInputText={setInputText} 
+        setInputText={setInputText}
         taskList={taskList}
         setTaskList={setTaskList}
       />
