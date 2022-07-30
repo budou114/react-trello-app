@@ -7,7 +7,7 @@ export const TaskCards = () => {
   return (
     <div className='taskCardsArea'>
       {taskCardsList.map(taskCardList => (
-        <TaskCard />
+        <TaskCard key={taskCardList.id} />
       ))}
 
       <AddTaskCardButton
